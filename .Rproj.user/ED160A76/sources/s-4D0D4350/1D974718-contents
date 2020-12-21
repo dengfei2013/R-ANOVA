@@ -1,0 +1,28 @@
+--- 
+title: "R语言方差分析"
+author: "邓飞"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "介绍R语言的方差分析"
+---
+
+# 前言{-}
+
+大家好，我是邓飞，之前在公众号写了系列教程，这次整理为电子书，更方便阅读。
+
+
+如果你有什么建议，欢迎联系我。
+
+***
+**公众号：R-breeding**
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

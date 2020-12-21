@@ -1,0 +1,3 @@
+library(bookdown)
+render_book('index.Rmd','bookdown::gitbook')
+bookdown:::serve_book("./")
